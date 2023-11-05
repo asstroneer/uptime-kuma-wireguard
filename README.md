@@ -10,11 +10,11 @@ For usage, you need prepare WireGuard client config file like file below:
 ```
 [Interface]
 PrivateKey = <my-private-key>
-Address = 172.160.0.2/32
+Address = 172.16.0.2/32
 
 [Peer]
 PublicKey = <server-public-key>
-AllowedIPs = 172.160.0.0/12
+AllowedIPs = 172.16.0.0/12
 Endpoint = my-vpn.com:51820
 PersistentKeepalive = 15
 ```
