@@ -1,4 +1,4 @@
-FROM louislam/uptime-kuma:1.22.1-debian as base-image
+FROM louislam/uptime-kuma:1.23.3-debian as base-image
 
 RUN echo "deb http://deb.debian.org/debian buster-backports main non-free" >> /etc/apt/sources.list
 RUN apt update && apt upgrade -y
